@@ -48,12 +48,24 @@ article h2 {
     margin-top: 0;
 }
 
+.ad {
+    background-color: #e4e4e4;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px dashed #ccc;
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+
+footer .ad {
+    margin-bottom: 10px;
 }
